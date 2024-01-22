@@ -1,14 +1,21 @@
 body {
-    display: flex;
     margin: 0;
+    display: flex;
     overflow: hidden;
+
+    /* Fonts */
     font-family: Arial, sans-serif;
 }
 
 #container {
-    overflow-y: auto;
     flex: 1;
     padding: 20px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between 2px;
+    height: 5vh;
 }
 
 #output {
