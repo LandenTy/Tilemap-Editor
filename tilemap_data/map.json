@@ -1,0 +1,36 @@
+{
+    "width": 5,
+    "height": 3,
+    "tilewidth": 32,
+    "tileheight": 32,
+    "layers": [
+      {
+        "name": "background",
+        "data": [
+          1, 1, 2, 2, 1,
+          1, 1, 2, 2, 1,
+          1, 1, 2, 2, 1
+        ]
+      },
+      {
+        "name": "floor",
+        "data": [
+          1, 1, 2, 2, 1,
+          1, 1, 2, 2, 1,
+          1, 1, 2, 2, 1
+        ]
+      }
+    ],
+    "tilesets": [
+      {
+        "name": "terrain",
+        "firstgid": 1,
+        "tilewidth": 32,
+        "tileheight": 32,
+        "image": "terrain.png",
+        "tilecount": 3,
+        "columns": 3
+      }
+    ]
+  }
+  
