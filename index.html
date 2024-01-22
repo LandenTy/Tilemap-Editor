@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Image Cutter</title>
+</head>
+<body>
+    <div id="menu"></div>
+    <div id="container">
+        <div>
+            <label for="fileInput">Choose Image:</label>
+            <input type="file" id="fileInput" accept="image/*">
+        </div>
+        <div>
+            <label for="tileWidth">Tile Width (px):</label>
+            <input type="number" id="tileWidth" min="1" value="16">
+        </div>
+        <div>
+            <label for="tileHeight">Tile Height (px):</label>
+            <input type="number" id="tileHeight" min="1" value="16">
+        </div>
+        <button onclick="cutImage()">Cut Image</button>
+
+        <div id="output"></div>
+    </div>
+    <script src="./toolbox.js"></script>
+</body>
+</html>

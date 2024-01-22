@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    overflow-y: auto;
+    flex: 1;
+    padding: 20px;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.tile {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.tile img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#menu {
+    width: 60px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.menu-tile {
+    min-width: 60px;
+    min-height: 60px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-size: cover;
+    filter: brightness(100%);
+    image-rendering: pixelated;
+}
